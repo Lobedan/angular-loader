@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <rix-modules
+            base="hello"
+            config="routes"
+            controller="helloCtrl"
+            directive="appVersion"
+            service="helloService"
+            filter="interpolate">
+    </rix-modules>
+
+    <title>Angular Loader</title>
+
+    <script data-main="js/config.js" src="bower_components/requirejs/require.js"></script>
+</head>
+<body ng-controller="HelloCtrl">
+
+<p>Peek in your browser console!</p>
+
+<div>{{data}}</div>
+
+</body>
+</html>

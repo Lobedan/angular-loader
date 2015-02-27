@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "0.4.0",
+  "description": "My awesome app created with RaveJS.",
+  "main": "app/main.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "serv": "0.0.7"
+  },
+  "scripts": {
+    "start": "serv"
+  }
+}
